@@ -19,6 +19,11 @@
  
  Bermuda works on a 6 column responsive grid. You can create a row by creating a div with a class of row. Each column should also have a div with a class of col-1. If you need a way of distinguishing between your columns you can use any class between col-1 - col-6.        
                                                       
-                                                      Navbar
-                                                      
+                                                       Navbar
+                                                       
  Setting up your navbar is simple. Just add the class .navbar to your nav. The navbar is responsive. You can make changes to the default nav in the variables.scss file under navbar. Simply replace bermuda values for yours.
+ 
+                                                        Cards
+  
+  You can add premade cards with different syles to your website. By default the card has a white background but you have 4 other colors to choose from. Just add a div class of .card. Each element within the card will also require their own class such as .card-header, .card-body and .card-footer.                                                       
+

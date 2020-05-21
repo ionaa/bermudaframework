@@ -14,7 +14,9 @@
 
 4. Bermuda uses 2 fonts through Google Fonts. 'Playfair Display', serif and 'Poiret One', cursive. Link your HTML to google fonts.
 
-
+                                                  Making Changes
+  You can make changes such as font, typescale, text styles, colors, grid etc. in the file called _variables.scss.                                                
+                                                  
                                                    6 Column Grid
  
  Bermuda works on a 6 column responsive grid. You can create a row by creating a div with a class of row. Each column should also have a div with a class of col-1. If you need a way of distinguishing between your columns you can use any class between col-1 - col-6.        

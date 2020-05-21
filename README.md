@@ -25,5 +25,16 @@
  
                                                         Cards
   
-  You can add premade cards with different syles to your website. By default the card has a white background but you have 4 other colors to choose from. Just add a div class of .card. Each element within the card will also require their own class such as .card-header, .card-body and .card-footer.                                                       
+  You can add premade cards with different syles to your website. By default the card has a white background but you have 4 other colors to choose from. Just add a div class of .card. Each element within the card will also require their own class such as .card-header, .card-body and .card-footer.   
+  
+                                                        Buttons
+                         
+  Buttons come in different colors, sizes and shapes. Buttons are just one of the things you can change in the variable.scss file.
 
+                                                        Text
+                                                        
+  Bermuda comes with different text styles, colors and uses different typescales depending on break points. Typescales used include major second, major third and perfect fourth.
+
+                                                        Themes
+                                                       
+ Currently there are four themes available ocean-theme, triangle-theme, twilightzone-theme and phenomenon-theme.                                                 

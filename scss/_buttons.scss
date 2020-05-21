@@ -1,0 +1,109 @@
+//--------------------------------
+//---------------BUTTONS----------
+//--------------------------------
+/* Buttons */
+:root {
+    --btn-red: #{map-get($colors, red)};
+    --btn-yellow: #{map-get($colors, yellow)};
+    --btn-blue: #{map-get($colors, blue)};
+    --btn-white: #{map-get($colors, white)};
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button {
+    font-size: 16px;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    width: 170px;
+}
+
+.btn-dark {
+    background-color: var(--raisin-black);
+    color: white;
+    border-radius: 8px;
+}
+
+.btn-light {
+    background-color: var(--btn-white);
+    color: var(--raisin-black);
+    border-radius: 8px;
+    border: 1px solid var(--raisin-black);
+}
+
+.btn-red {
+    background-color: var(--btn-red);
+    color: var(--raisin-black);
+    border-radius: 8px;
+}
+
+.btn-yellow {
+    background-color: var(--btn-yellow);
+    color: var(--raisin-black);
+    border-radius: 8px;
+}
+
+.btn-blue {
+    background-color: var(--btn-blue);
+    color: var(--raisin-black);
+    border-radius: 8px;
+}
+
+/* Rounded Buttons */
+.rounded-btn-dark {
+    background-color: var(--raisin-black);
+    color: white;
+    border-radius: 30px;
+}
+
+.rounded-btn-light {
+    background-color: var(--btn-white);
+    color: var(--raisin-black);
+    border: 1px solid var(--raisin-black);
+    border-radius: 30px;
+}
+
+.rounded-btn-red {
+    background-color: var(--btn-red);
+    color: var(--raisin-black);
+    border-radius: 30px;
+}
+
+.rounded-btn-yellow {
+    background-color: var(--btn-yellow);
+    color: var(--raisin-black);
+    border-radius: 30px;
+}
+
+.rounded-btn-blue {
+    background-color: var(--btn-blue);
+    color: var(--raisin-black);
+    border-radius: 30px;
+}
+
+.btn-sm {
+    font-size: 10px;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-md {
+    font-size: 13px;
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+}
+
+.over-img-button {
+    margin: 0;
+    position: absolute;
+    top: #{$image-button-top};
+    left: #{$image-button-left};
+    transform: translate(-50%, -20%);
+    font-size: #{$image-text-size};
+}
+

@@ -1,0 +1,150 @@
+//--------------------------------
+//---------------GRID-------------
+//--------------------------------
+:root {
+    --width: #{$width};
+    --columns: #{$columns};
+    --grid-gap: #{$grid-gap};
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+;
+
+/* Flex */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: var(--grid-gap);
+}
+
+/* 6 Column Layout */
+@for $width from 1 through $columns {
+    .col-#{$width} {
+        flex-basis: calc(var(--width) / var(--columns) * 100%);
+        padding: var(--grid-gap);
+        background-clip: content-box;
+        position: relative;
+    }
+}
+
+.fullspan {
+    --width: 6;
+}
+
+/* Phone Layout */
+@include phone {
+    .fullspan-phone {
+        --width: 6;
+    }
+
+    .span-5-phone {
+        --width: 5;
+    }
+
+    .span-4-phone {
+        --width: 4;
+    }
+
+    .span-3-phone {
+        --width: 3;
+    }
+
+    .span-2-phone {
+        --width: 2;
+    }
+
+    .span-1-phone {
+        --width: 1;
+    }
+
+}
+
+/* Tablet Layout */
+@include tablet {
+    .fullspan-tablet {
+        --width: 6;
+    }
+
+    .span-5-tablet {
+        --width: 5;
+    }
+
+    .span-4-tablet {
+        --width: 4;
+    }
+
+    .span-3-tablet {
+        --width: 3;
+    }
+
+    .span-2-tablet {
+        --width: 2;
+    }
+
+    .span-1-tablet {
+        --width: 1;
+    }
+}
+
+/* Desktop Layout */
+@include desktop {
+    .fullspan-desktop {
+        --width: 6;
+    }
+
+    .span-5-desktop {
+        --width: 5;
+    }
+
+    .span-4-desktop {
+        --width: 4;
+    }
+
+    .span-3-desktop {
+        --width: 3;
+    }
+
+    .span-2-desktop {
+        --width: 2;
+    }
+
+    .span-1-desktop {
+        --width: 1;
+    }
+}
+
+/* Large Desktop Layout */
+@include lrgdesktop {
+    .fullspan-large-desktop {
+        --width: 6;
+    }
+
+    .span-5-large-desktop {
+        --width: 5;
+    }
+
+    .span-4-large-desktop {
+        --width: 4;
+    }
+
+    .span-3-large-desktop {
+        --width: 3;
+    }
+
+    .span-2-large-desktop {
+        --width: 2;
+    }
+
+    .span-1-large-desktop {
+        --width: 1;
+    }
+}

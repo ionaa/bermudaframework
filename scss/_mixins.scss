@@ -1,0 +1,32 @@
+// --------------------------------
+//---------------MIXINS------------
+//---------------------------------
+
+//Phones
+@mixin phone {
+    @media (min-width: #{$phone}) {
+        @content
+    }
+}
+
+//Tablets
+@mixin tablet {
+    @media (min-width: #{$tablet}) {
+        @content
+    }
+}
+
+//Desktop
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content
+    }
+}
+
+//Large Desktop
+@mixin lrgdesktop {
+    @media (min-width: #{$large-desktop}) {
+        @content
+    }
+}
+

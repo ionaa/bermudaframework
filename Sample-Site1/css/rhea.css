@@ -65,23 +65,6 @@ h1 {
     padding-top: 5px;
 }
 
-/*variable*/
-/*input[type=text],
-input[type=email],
-input[type=submit],
-select {
-  width: 300px;
-  padding: 15px 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  background-color: #2e2e2e;
-  color: white;
-  font-family: titular, sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 1.3em;
-}*/
 .formbody {
     height: 80vh;
     display: flex;

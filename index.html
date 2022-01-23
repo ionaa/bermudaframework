@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bermuda</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bermuda.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-1 fullspan">
+            <img src="images/design-2772075_1920.png" alt="main website image">
+            <h1 class="over-img-text-center dark-text">Bermuda</h1>
+            <p class="over-img-text  blue-text">Responsive CSS Framework</p>
+            <a class="rounded-btn-dark btn-md over-img-button" role="button" href="bermuda.zip" download="bermuda">Download</a>
+        </div>
+    </div>
+    <nav id="top" class="navbar">
+        <ul>
+            <li>
+                <a href="#grid">GRID</a>
+            </li>
+            <li>
+                <a href="#navbar">NAVBAR</a>
+            </li>
+            <li>
+                <a href="#cards">CARDS</a>
+            </li>
+            <li>
+                <a href="#buttons">BUTTONS</a>
+            </li>
+            <li>
+                <a href="#text">TEXT</a>
+            </li>
+            <li>
+                <a href="#themes">THEMES</a>
+            </li>
+            <li>
+                <a href="timetravel.html">SAMPLE SITE</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="row">
+        <div class="col-1 fullspan-phone bg-pink">
+            <h4 class="center-text blue-text text-italic">A little about Bermuda</h4>
+            <p class="center-text">Bermuda is a lightweight minimal style responsive CSS framework. Different themes, text colors and background colors allow for many possibilities.Framework includes a 6 grid responsive layout, button styles, cards and a responsive navbar. Let Bermuda help you create a beautiful responsive website.</p><br>
+        </div>
+    </div>
+    <div class="row bg-grey">
+        <div class="col-1 span-3-tablet fullspan-phone">
+            <h4 class="center-text blue-text text-italic">Getting Started</h4>
+            <p>1. Download Bermuda. You will get a zip file called bermuda.zip containing two folders scss and css. Store those folders in your project file.</p>
+            <p>2. Create your HTML.</p>
+            <p>3. Link your HTML file to your bermuda.css. </p>
+            <p>4. Bermuda uses 2 fonts through Adobe. Operetta-12 and trade-gothic-next,
+sans-serif. Link your HTML to Adobe fonts. https://use.typekit.net/myw8bnd.css</p>
+            <br>
+            <p class="center-text">
+                <a class="rounded-btn-dark btn-md" role="button" href="bermuda.zip" download="bermuda">Download</a>
+                <a class="rounded-btn-dark btn-md" role="button" href="timetravel.html">Sample Site</a>
+            </p>
+        </div>
+        <div class="col-1 span-3-tablet fullspan-phone">
+            <img src="images/gettingstarted.png" alt="getting started image">
+            <p class="text-weight-heavy">Note: You can customize Bermuda in the file called varibles.scss. There you can make changes such as Bermuda colors, text, breakpoints, grid, padding etc. Do not make changes to any other files.</p>
+        </div>
+    </div>
+
+
+    <div class="row  bg-pink">
+        <div class="col-1 fullspan center-text text-italic ">
+            <h1 id="grid" class="blue-text">6 Column Grid</h1>
+            <a href="#top">BACK TO TOP</a>
+        </div>
+    </div>
+
+    <div class="row bg-grey">
+        <div class="col-2 span-3-tablet fullspan-phone">
+            <p class="center-text">Bermuda works on a 6 column responsive grid. You can create a row by creating a div with a class of row. Each column should also have a div with a class of col-1. If you need a way of distinguishing between your columns you can use any class between col-1 - col-6.</p>
+        </div>
+        <div class="col-2 span-3-tablet fullspan-phone">
+            <img src="images/grid.png" alt="grid image">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-1 bg-blue fullspan-phone span-2-tablet span-1-desktop">
+            <h3 class="blue-text center-text">COLUMN 1</h3>
+        </div>
+        <div class="col-1 bg-blue fullspan-phone span-2-tablet span-1-desktop">
+            <h3 class="blue-text center-text">COLUMN 2</h3>
+        </div>
+        <div class="col-1 bg-blue fullspan-phone span-2-tablet span-1-desktop">
+            <h3 class="blue-text center-text">COLUMN 3</h3>
+        </div>
+        <div class="col-1 bg-blue fullspan-phone span-2-tablet span-1-desktop">
+            <h3 class="blue-text center-text">COLUMN 4</h3>
+        </div>
+        <div class="col-1 bg-blue fullspan-phone span-2-tablet span-1-desktop">
+            <h3 class="blue-text center-text">COLUMN 5</h3>
+        </div>
+        <div class="col-1 bg-blue fullspan-phone span-2-tablet span-1-desktop">
+            <h3 class="blue-text center-text">COLUMN 6</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-1 fullspan">
+            <h2 class="blue-text center-text text-italic"> How to utilize the grids responsive columns</h2>
+            <p class="center-text">There are classes for responsive columns based on the width you would like each column to have on a certain breakpoint.</p>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-1 span-1-desktop fullspan-phone bg-blue">
+            <h3 class="blue-text center-text text-italic">Phone</h3>
+            <p class="center-text text-weight-heavy">Breakpoint 200px</p>
+            <p class="center-text">.fullspan-phone</p>
+            <p class="center-text">.span-5-phone</p>
+            <p class="center-text">.span-4-phone</p>
+            <p class="center-text">.span-3-phone</p>
+            <p class="center-text">.span-2-phone</p>
+            <p class="center-text">.span-1-phone</p>
+        </div>
+        <div class="col-1 span-1-desktop fullspan-phone bg-yellow">
+            <h3 class="blue-text center-text text-italic">Tablet</h3>
+            <p class="center-text text-weight-heavy">Breakpoint 768px</p>
+            <p class="center-text">.fullspan-tablet</p>
+            <p class="center-text">.span-5-tablet</p>
+            <p class="center-text">.span-4-tablet</p>
+            <p class="center-text">.span-3-tablet</p>
+            <p class="center-text">.span-2-tablet</p>
+            <p class="center-text">.span-1-tablet</p>
+        </div>
+        <div class="col-1 span-1-desktop fullspan-phone bg-blue">
+            <h3 class="blue-text center-text text-italic">Desktop</h3>
+            <p class="center-text text-weight-heavy">Breakpoint 992px</p>
+            <p class="center-text">.fullspan-desktop</p>
+            <p class="center-text">.span-5-desktop</p>
+            <p class="center-text">.span-4-desktop</p>
+            <p class="center-text">.span-3-desktop</p>
+            <p class="center-text">.span-2-desktop</p>
+            <p class="center-text">.span-1-desktop</p>
+        </div>
+        <div class="col-1 span-1-desktop fullspan-phone bg-yellow">
+            <h3 class="blue-text center-text text-italic">L-Desktop</h3>
+            <p class="center-text text-weight-heavy">Breakpoint 1200px</p>
+            <p class="center-text">.fullspan-large-desktop</p>
+            <p class="center-text">.span-5-large-desktop</p>
+            <p class="center-text">.span-4-large-desktop</p>
+            <p class="center-text">.span-3-large-desktop</p>
+            <p class="center-text">.span-2-large-desktop</p>
+            <p class="center-text">.span-1-large-desktop</p>
+        </div>
+        <div class="col-1 span-2-desktop fullspan-phone">
+            <h4 class="blue-text center-text text-italic">Example</h4>
+            <p class="center-text bg-pink">I will span 2 columns until I hit the desktop breakpoint and then I will span 6 columns.</p>
+            <img src="images/span.png" alt="span image example">
+        </div>
+    </div>
+   
+    <div class="row">
+        <div class="col-1 fullspan"><img src="images/span2.png" alt="image of responsive column"></div>
+    </div>
+     <div class="row">
+        <div class="col-1 span-3-tablet fullspan-phone bg-pink">
+            <h3 class="blue-text center-text"> Span 3 Columns until tablet break point then 6 columns</h3>
+            <p class="center-text">.span-3-tablet</p>
+            <p class="center-text">.fullspan-phone</p>
+        </div>
+        <div class="col-1 span-3-tablet fullspan-phone bg-grey">
+            <h3 class="blue-text center-text"> Span 3 Columns until tablet break point then 6 columns</h3>
+            <p class="center-text">.span-3-tablet</p>
+            <p class="center-text">.fullspan-phone</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 center-text text-italic fullspan bg-pink">
+            <h1 id="navbar" class="blue-text">Navbar</h1>
+            <a href="#top">BACK TO TOP</a>
+        </div>
+    </div>
+    <div class="row bg-blue">
+        <div class="col-1  span-3-tablet fullspan-phone">
+            <p>Setting up your navbar is simple. Just add the class .navbar to your nav. The navbar is responsive. 
+            You can make changes to the default nav in the variables.scss file under navbar. Simply replace bermuda values for yours. </p>
+        </div>
+        <div class="col-1  span-3-tablet fullspan-phone">
+            <img src="images/navbar.png" alt="navbar image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 center-text text-italic fullspan bg-pink">
+            <h1 id="cards" class="blue-text">Cards</h1>
+            <a href="#top">BACK TO TOP</a>
+        </div>
+    </div>
+    <div class="row bg-grey">
+        <div class="col-1 span-3-tablet fullspan-phone">
+            <img src="images/cards.png" alt="Image of how to use cards">
+            <p class="text-weight-heavy">Note: You can make the card responsive just like anything else by adding responsive column classes. Refer to grid for more information on grid.</p>
+        </div>
+        <div class="col-1 span-3-tablet fullspan-phone">
+            <p>You can add premade cards with different syles to your website. By default the card has a white background but you have 4 other colors to choose from .card-yellow, .card-red, .card-blue, .card-dark.</p>
+            <p>Just add a div class of .card. Each element within the card will also require their own class such as .card-header, .card-body and .card-footer</p>
+            <img src="images/cards2.png" alt="how to add styled cards">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 span-2-tablet fullspan-phone">
+            <div class="card">
+                <h3 class="card-header">.card</h3>
+            </div>
+        </div>
+        <div class="col-1 span-1-desktop span-2-tablet fullspan-phone">
+            <div class="card card-yellow">
+                <h3 class="card-header">.card-yellow</h3>
+            </div>
+        </div>
+        <div class="col-1 span-1-desktop span-2-tablet fullspan-phone">
+            <div class="card card-blue">
+                <h3 class="card-header">.card-blue</h3>
+            </div>
+        </div>
+        <div class="col-1 span-1-desktop span-2-tablet fullspan-phone">
+            <div class="card card-red">
+                <h3 class="card-header">.card-red</h3>
+            </div>
+        </div>
+        <div class="col-1 span-1-desktop span-2-tablet fullspan-phone">
+            <div class="card card-dark">
+                <h3 class="card-header">.card-dark</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 center-text text-italic fullspan bg-pink">
+            <h1 id="buttons" class="blue-text">Buttons</h1>
+            <a href="#top">BACK TO TOP</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 span-3-tablet fullspan-phone bg-yellow">
+            <h3 class="center-text blue-text">Colors</h3>
+            <p>Buttons come in 5 different colors. Give your button a class of the button style you want to use.</p>
+            <button class="btn-dark">.btn-dark</button>
+            <button class="btn-light">.btn-light</button>
+            <button class="btn-blue">.btn-blue</button>
+            <button class="btn-yellow ">.btn-yellow</button>
+            <button class="btn-red">.btn-red</button>
+            <p class="text-weight-heavy">Note: Buttons are just one of the things you can customize to your preference in the file variables.scss</p>
+            <img src="images/buttons.png" alt="how to use buttons image">
+        </div>
+        <div class="col-1 span-3-tablet fullspan-phone">
+            <h3 class="center-text blue-text">Shapes & Sizes</h3>
+            <p>There are two button shapes including the default and the rounded buttons. To get the rounded version simply add rounded to your button class for example .rounded-btn-blue.</p>
+            <p class="center-text"><button class="rounded-btn-blue ">.rounded-btn-blue</button>
+                <button class="btn-blue">.btn-blue</button></p>
+            <p>There are three size options for buttons. Default which is the largest, .btn-sm and .btn-md. Other features include .over-img-btn, which allows you to position your button over an image.</p>
+            <p class="center-text">
+                <button class="btn-dark btn-sm">.btn-sm</button>
+                <button class="btn-yellow btn-md">.btn-md</button>
+                <button class="btn-light">Default</button>
+            </p>
+            <p class="center-text">
+                <button class="rounded-btn-dark btn-sm">.btn-sm</button>
+                <button class="rounded-btn-yellow btn-md">.btn-md</button>
+                <button class="rounded-btn-light">Default</button>
+            </p>
+            <p class="btn-weight-heavy">Note: changes to .over-img-btn positioning as well as other button features can be made in the file variables.scss.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 center-text text-italic fullspan bg-pink">
+            <h1 id="text" class="blue-text">Text</h1>
+            <a href="#top">BACK TO TOP</a>
+        </div>
+    </div>
+      <div class="row">
+        <div class="col-1 span-3-tablet fullspan-phone center-text bg-blue">
+            <h3 class="text-italic blue-text">Text Colors</h3>
+            <p> Bermuda comes with seven different text colors.</p>
+            <p class="light-text bg-grey">.light-text</p>
+            <p class="dark-text">.dark-text</p>
+            <p class="grey-text">.grey-text</p>
+            <p class="red-text">.red-text</p>
+            <p class="blue-text">.blue-text</p>
+            <p class="yellow-text">.yellow-text</p>
+            <p class="orange-text">.orange-text</p>
+            <img src="images/text.png" alt="text examples">
+        </div>
+        <div class="col-1 span-3-tablet fullspan-phone bg-blue">
+            <h3 class="text-italic blue-text center-text">Text Scale & Style</h3>
+            <p class="center-text"> Bermuda is set on 3 different tyscales based on breakpoint. At phone breakpoint the typescale is set to Major Second. At tablet breakpoint the typescale is set to Major third and at desktop it is set to perfect fourth. You can adjust your typescale in the variables.scss file under typescale.</p>
+            <img src="images/typescale.png" alt="typescale image">
+            <p class="center-text">Bermuda also comes with some text styles</p>
+            <p class="text-italic center-text">.text-italic</p>
+            <p class="text-allcaps center-text">.text-allcaps</p>
+            <p class="text-weight-light center-text">.text-weight-bold</p>
+            <p class="text-weight-heavy center-text">.text-weight-heavy</p>
+            <p class="center-text">.center-text</p>
+            <p>Others include .over-img-text-center and .over-img-text. These two classes help to center text over images. You can change these values in the variable.scss file.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 center-text text-italic fullspan bg-pink">
+            <h1 id="themes" class="blue-text">Themes</h1>
+            <a href="#top">BACK TO TOP</a>
+        </div>
+    </div>
+      <div class="row bg-grey">
+        <div class="col-1 span-3-tablet fullspan-phone">
+           <img src="images/theme.png" alt="theme photo">
+           <p class="center-text"> Bermuda comes equipped with 4 different themes to choose from. .ocean-theme, .triangle-theme, .twilightzone-theme and .phenomenon-theme</p>
+        </div>
+        <div class="col-1 span-3-tablet fullspan-phone">
+        <img src="images/oceantheme.png" alt="ocean theme">
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-1 span-2-tablet fullspan-phone">
+            <img src="images/triangletheme.png" alt="triangle theme">
+        </div>
+        <div class="col-1 span-2-tablet fullspan-phone">
+            <img src="images/twilightzone.png" alt="twilight zone theme">
+        </div>
+        <div class="col-1 span-2-tablet fullspan-phone">
+            <img src="images/phenomenon.png" alt="phenomenon theme">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 span-2-tablet fullspan-phone">
+            <h3 class="center-text text-italic blue-text">Background Colors</h3>
+            <img src="images/bgcolors.png" alt="background colors image">
+        </div>
+        <div class="col-1 span-1-tablet fullspan-phone bg-pink">
+        <h5 class="center-text">.bg-pink</h5>
+    </div>
+    <div class="col-1 span-1-tablet fullspan-phone bg-grey">
+        <h5 class="center-text">.bg-grey</h5>
+    </div>
+    <div class="col-1 span-1-tablet fullspan-phone bg-yellow">
+        <h5 class="center-text">.bg-yellow</h5>
+    </div>
+    <div class="col-1 span-1-tablet fullspan-phone bg-blue">
+        <h5 class="center-text">.bg-blue</h5>
+    </div>
+    </div>
+<div class="row">
+        <div class="col-1 fullspan center-text">
+            <footer>
+                <p> © BERMUDA IS PROUDLY MADE BY IONA ALVAREZ 2020</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>

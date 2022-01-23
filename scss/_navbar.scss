@@ -1,0 +1,82 @@
+//--------------------------------
+//---------------NAVBAR-----------
+//--------------------------------
+
+:root {
+    --nav-ul-padding: #{$nav-ul-padding};
+    --nav-li-padding: #{$nav-li-padding};
+}
+
+/* Navbar */
+.navbar {
+    ul {
+        list-style: none;
+        margin: 0;
+        overflow: hidden;
+        text-align: center;
+        padding: var(--nav-ul-padding);
+
+    }
+
+    li {
+        text-align: center;
+        padding: var(--nav-li-padding);
+    }
+
+    li a {
+        text-decoration: none;
+        font-family: var(--font-secondary);
+    }
+
+}
+
+/* Navbar Phone */
+@include phone {
+    .navbar {
+        ul {
+            background-color: #{$nav-phonebg-color};
+
+        }
+
+        li {
+            display: block;
+            border: 1px solid white;
+        }
+    }
+
+    li a {
+        color:#{$nav-phonetext-color};
+
+    }
+
+    li a:hover {
+        color: #{$nav-phone-hovcolor};
+    }
+
+    .current {
+        color: #{$nav-phonecurrent-color};
+    }
+}
+
+/* Navbar Tablet */
+@include tablet {
+    .navbar {
+        ul {
+            background-color: #{$nav-phonecurrent-color};
+        }
+
+        li {
+            display: inline-block;
+            border: none;
+        }
+    }
+
+    li a {
+        color:#{$nav-text-color};
+
+    }
+
+    .current {
+        color: #{$nav-current-color};
+    }
+}

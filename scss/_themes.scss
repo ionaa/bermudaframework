@@ -1,0 +1,167 @@
+//--------------------------------
+//---------------Themes-----------
+//--------------------------------
+
+:root {
+/* More Colors */
+   
+    --ocean-blue: #B0D9E2;
+    --deep-blue: #22364F;
+    --sea-blue: #9BAEC4;
+    --sand: #AE6D1C;
+    --white: white;
+    --triangle-pink: rgba(206, 141, 144, 0.3);
+    --triangle-purple: #694553;
+    --raisin-black: #272932;
+    --steel-blue: #4D7EA8;
+    --heliotope-grey: #9E90A2;
+    --light-steel: #B6C2D9;
+    --peach: #D8A386;
+    --purple: #AA7D78;
+    --celadon-blue: #0081A7;
+    --blue-green: #00AFB9;
+    --light-yellow: #FDFCDC;
+    --puff: #FED9B7;
+    --sweet: #F07167;
+    --bg-yellow: hsla(58, 98%, 90%, 0.5);
+    --bg-pink: hsla(2, 25%, 75%, 0.1);
+    --bg-grey: hsla(205, 0%, 54%, 0.1);
+    --bg-blue: hsla(205, 45%, 72%, 0.2);
+
+}
+/* Background Color Options */
+.bg-yellow{
+    background-color: var(--bg-yellow);
+}
+
+.bg-pink{
+    background-color: var(--bg-pink);
+}
+
+.bg-grey{
+    background-color: var(--bg-grey);
+}
+
+.bg-blue{
+    background-color: var(--bg-blue);
+}
+
+/* Themes */
+.ocean-theme {
+    background-color: var(--ocean-blue);
+
+    .current {
+        color: var(--sand);
+    }
+
+    .navbar ul {
+        background-color: var(--deep-blue);
+    }
+
+    li a {
+        color: var(--white);
+
+    }
+
+    li a:hover {
+        color: var(--sea-blue);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        color: var(--deep-blue);
+    }
+
+}
+
+.triangle-theme {
+    background-color: var(--triangle-pink);
+
+    .current {
+        color: var(--purple)
+    }
+
+    .navbar ul {
+        background-color: var(--triangle-purple);
+    }
+
+    li a {
+        color: var(--white);
+
+    }
+
+    li a:hover {
+        color: var(--peach);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        color: var(--triangle-purple);
+    }
+
+}
+
+.twilightzone-theme {
+     background-color: var(--light-steel);
+
+    .current {
+        color: var(--steel-blue);
+    }
+
+    .navbar ul {
+        background-color: var(--raisin-black);
+    }
+
+    li a {
+        color: var(--white);
+
+    }
+
+    li a:hover {
+        color: var(--heliotope-grey);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        color: var(--raisin-black);
+    }
+}
+
+.phenomenon-theme {
+    background-color: var(--light-yellow);
+
+    .current {
+        color: var(--celadon-blue);
+    }
+
+    .navbar ul {
+        background-color: var(--sweet);
+    }
+
+    li a {
+        color: var(--white);
+
+    }
+
+    li a:hover {
+        color: var(--puff);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        color: var(--sweet);
+    }
+}
+

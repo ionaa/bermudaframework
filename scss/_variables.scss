@@ -1,0 +1,66 @@
+//--------------------------------
+//---------------Variables--------
+//--------------------------------
+// Make your changes here to customize
+
+//type
+$primary-font: operetta-12,
+serif;
+$secondary-font:trade-gothic-next,
+sans-serif;
+
+//typescale
+$phone-base-size: 1em;
+$phone-type-scale: 1.125;
+$tablet-base-size: 1em;
+$tablet-type-scale: 1.25;
+$desktop-base-size: 1em;
+$desktop-type-scale: 1.3;
+
+//over image 
+$image-text1-top: 45%;
+$image-text1-left: 50%;
+$image-text2-top: 52%;
+$image-text2-left: 50%;
+$image-text-size: 14px;
+$image-button-top: 63%;
+$image-button-left: 50%;
+
+//colors
+$colors:(dark-blue: #2F4858,
+    blue: #33658A,
+    light-blue: #86BBD8,
+    red: #F23518,
+    yellow: #F6AE2D,
+    orange: #F26419,
+    grey: #4e4e4e,
+    black: #272932,
+    white: #f8f8f8,
+);
+
+//breakpoints
+$phone:200px;
+$tablet:768px;
+$desktop:992px;
+$large-desktop: 1200px;
+
+//grid
+$columns: 6;
+$width: 1;
+$grid-gap: 10px;
+
+//Navbar
+$nav-phonebg-color: #{map-get($colors, yellow)};
+$nav-phonetext-color: #{map-get($colors, black)};
+$nav-text-color: #{map-get($colors, grey)};
+$nav-bg-color: #{map-get($colors, white)};
+$nav-phone-hovcolor: #{map-get($colors, blue)};
+$nav-phonecurrent-color: white;
+$nav-current-color: #{map-get($colors, yellow)};
+$nav-ul-padding: 10px;
+$nav-li-padding: 7px;
+
+
+
+
+

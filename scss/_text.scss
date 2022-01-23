@@ -1,0 +1,201 @@
+//--------------------------------
+//---------------TEXT-------------
+//--------------------------------
+:root {
+    --font-primary: #{$primary-font};
+    --font-secondary: #{$secondary-font};
+    --light-text: #{map-get($colors, white)};
+    --grey-text: #{map-get($colors, grey)};
+    --dark-text: #{map-get($colors, black)};
+    --blue-text: #{map-get($colors, dark-blue)};
+    --light-blue-text: #{map-get($colors, light-blue)};
+    --red-text: #{map-get($colors, red)};
+    --orange-text: #{map-get($colors, orange)};
+    --yellow-text: #{map-get($colors, yellow)};
+
+    /* Type Scale */
+    --text-sm: calc(var(--base-size)*var(--type-scale));
+    --text-md: calc(var(--text-sm)*var(--type-scale));
+    --text-lrg: calc(var(--text-md)*var(--type-scale));
+    --text-xlrg: calc(var(--text-lrg)*var(--type-scale));
+    --text-xxlrg: calc(var(--text-xlrg)*var(--type-scale));
+    --text-suplrg: calc(var(--text-xxlrg)*var(--type-scale));
+}
+
+/* Responsive Text */
+
+// Major Second TypeScale
+@include phone {
+    :root {
+        --base-size: #{$phone-base-size};
+        --type-scale: #{$phone-type-scale};
+    }
+}
+
+// Major Third TypeScale
+@include tablet {
+    :root {
+        --base-size: #{$tablet-base-size};
+        --type-scale: #{$tablet-type-scale};
+    }
+}
+
+// Perfect Fourth TypeScale
+@include desktop {
+    :root {
+        --base-size: #{$desktop-base-size};
+        --type-scale: #{$desktop-type-scale};
+    }
+}
+
+
+body {
+    font-family: var(--font-secondary);
+    color: var(--grey-text);
+}
+
+/* Text Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--font-primary);
+    color: var(--dark-text);
+}
+
+h1 {
+    font-size: var(--text-xxlrg);
+}
+
+h2 {
+    font-size: var(--text-xlrg);
+}
+
+h3 {
+    font-size: var(--text-lrg);
+}
+
+h4 {
+    font-size: var(--text-md);
+}
+
+h5 {
+    font-size: var(--text-sm);
+}
+
+/* Text Sizes */
+
+.text-small {
+    font-size: var(--text-sm);
+}
+
+.text-med {
+    font-size: var(--text-md);
+}
+
+.text-large {
+    font-size: var(--text-lrg);
+}
+
+.text-xlarge {
+    font-size: var(--text-xlrg);
+}
+
+.text-xxlarge {
+    font-size: var(--text-xxlrg);
+}
+
+.text-superlarge {
+    font-size: var(--text-suplrg);
+}
+
+/* Text Weight */
+
+.text-weight-xlight {
+    font-weight: 200;
+}
+
+.text-weight-light {
+    font-weight: 300;
+}
+
+.text-weight-normal {
+    font-weight: 400;
+}
+
+.text-weight-bold {
+    font-weight: 600;
+}
+
+.text-weight-heavy {
+    font-weight: 800;
+}
+
+/* Text Color */
+.light-text {
+    color: var(--light-text);
+}
+
+.grey-text {
+    color: var(--grey-text);
+}
+
+.blue-text {
+    color: var(--blue-text);
+}
+
+.light-blue-text {
+    color: var(--light-blue-text);
+}
+
+.red-text {
+    color: var(--red-text);
+}
+
+.dark-text {
+    color: var(--dark-text);
+}
+
+.orange-text {
+    color: var(--orange-text);
+}
+
+.yellow-text {
+    color: var(--yellow-text);
+}
+
+/* Text Style */
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-allcaps {
+    font-variant-caps: all-petite-caps;
+}
+
+/* Align Text Center */
+
+.center-text {
+    text-align: center;
+}
+
+.over-img-text-center {
+    margin: 0;
+    position: absolute;
+    top: #{$image-text1-top};
+    left: #{$image-text1-left};
+    transform: translate(-50%, -50%);
+}
+
+.over-img-text {
+    margin: 0;
+    position: absolute;
+    top: #{$image-text2-top};
+    left: #{$image-text2-left};
+    transform: translate(-50%, -20%);
+    font-size: #{$image-text-size};
+}
+ 
